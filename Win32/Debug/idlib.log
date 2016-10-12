@@ -1,0 +1,9 @@
+﻿Build started 10/12/2016 7:06:47 PM.
+     1>Project "J:\Users\Taco\Documents\GitHub\Quake4Midterm\source\idlib.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         idlib.vcxproj -> J:\Users\Taco\Documents\GitHub\Quake4Midterm\source\../Win32/Debug\idLib.lib
+     1>Done Building Project "J:\Users\Taco\Documents\GitHub\Quake4Midterm\source\idlib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07
