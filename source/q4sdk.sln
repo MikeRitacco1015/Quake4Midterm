@@ -12,8 +12,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MPGame", "mpgame.vcxproj", 
 		{49BEC5C6-B964-417A-851E-808886B57400} = {49BEC5C6-B964-417A-851E-808886B57400}
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{32B6A7CD-3C96-46A8-AA81-2F42529CB9CA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
