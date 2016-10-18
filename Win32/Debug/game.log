@@ -1,4 +1,4 @@
-﻿Build started 10/18/2016 1:30:08 PM.
+﻿Build started 10/18/2016 2:02:52 PM.
      1>Project "C:\Users\Mike\Documents\GitHub\Quake4Midterm\source\game.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _DEBUG /D _WINDOWS /D GAME_DLL /D Q4SDK /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc /Fp"../Win32/Debug\Game/Game.pch" /Fo"../Win32/Debug\Game/" /Fd"../Win32/Debug\Gamex86.pdb" /Gd /TP /analyze- /errorReport:prompt game\AF.cpp
@@ -8,4 +8,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:00.79
+Time Elapsed 00:00:00.86

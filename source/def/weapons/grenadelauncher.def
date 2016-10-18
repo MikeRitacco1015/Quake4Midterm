@@ -240,7 +240,7 @@ entityDef projectile_grenade
 	
 	"no_contents"				"0"
 								
-	"model"						"models/weapons/grenadelauncher/w_grenade.lwo"
+	"model"						"models/characters/bodies_parts/half_head.lwo"  //models/weapons/grenadelauncher/w_grenade.lwo
 	"def_damage"				"damage_grenadeDirect"
 	"def_splash_damage"			"damage_grenadeSplash"
 																											
