@@ -12,6 +12,37 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MPGame", "mpgame.vcxproj", 
 		{49BEC5C6-B964-417A-851E-808886B57400} = {49BEC5C6-B964-417A-851E-808886B57400}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A5FA184-FBF0-49E4-9D3A-A8480D83F4DB}"
+	ProjectSection(SolutionItems) = preProject
+		def\ammo.def = def\ammo.def
+		def\weapons\blaster.def = def\weapons\blaster.def
+		def\bodies_and_parts.def = def\bodies_and_parts.def
+		def\damage.def = def\damage.def
+		def\weapons\dmg.def = def\weapons\dmg.def
+		def\exploding.def = def\exploding.def
+		def\weapons\gauntlet.def = def\weapons\gauntlet.def
+		def\weapons\grenadelauncher.def = def\weapons\grenadelauncher.def
+		def\weapons\hyperblaster.def = def\weapons\hyperblaster.def
+		def\items.def = def\items.def
+		def\weapons\lightninggun.def = def\weapons\lightninggun.def
+		def\weapons\machinegun.def = def\weapons\machinegun.def
+		def\melee.def = def\melee.def
+		def\misc.def = def\misc.def
+		def\weapons\nailgun.def = def\weapons\nailgun.def
+		def\weapons\napalmgun.def = def\weapons\napalmgun.def
+		def\player.def = def\player.def
+		def\powerups.def = def\powerups.def
+		def\projectiles.def = def\projectiles.def
+		def\q4xdamage.def = def\q4xdamage.def
+		def\weapons\railgun.def = def\weapons\railgun.def
+		def\reactive.def = def\reactive.def
+		def\weapons\rocketlauncher.def = def\weapons\rocketlauncher.def
+		def\weapons\shotgun.def = def\weapons\shotgun.def
+		def\target.def = def\target.def
+		def\tools.def = def\tools.def
+		def\triggers.def = def\triggers.def
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
