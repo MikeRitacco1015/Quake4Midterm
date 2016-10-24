@@ -57,7 +57,7 @@ entityDef weapon_grenadelauncher
 	"editor_mins"				"-16 -16 0"
 	"editor_maxs"				"16 16 32"
 
-	"editor_usage"				"Grenade Launcher"
+	"editor_usage"				"Brain Launcher"
 
 	"spawnclass"				"idItem"
 	"weaponclass"				"rvWeaponGrenadeLauncher"
@@ -86,7 +86,7 @@ entityDef weapon_grenadelauncher
 	"inv_icon"					"gfx/guis/hud/icons/item_grenade.tga"
 	"inv_name"					"#str_107403"	
 
-	"weaponname"				"Grenade Launcher"
+	"weaponname"				"Brain Launcher"
 	"def_projectile"			"projectile_grenade"
 	"ammoType"					"ammo_grenadelauncher"
 	"clipSize"					"8"
@@ -232,27 +232,28 @@ model weapon_grenadelauncher_world
 entityDef projectile_grenade
 {
 	"spawnclass"				"idProjectile"
-	"mins"						"-4 -4 -4"
-	"maxs"						"4 4 4"
+	
+	"mins"						"-4 -4 -4" // orig -4 -4 -4
+	"maxs"						"4 4 4" // orig 4 4 4 
 	"cone"						""
 	"noshadows"					"1"
 	"clipmask_largeshot"		"1"
 	
 	"no_contents"				"0"
 								
-	"model"						"models/characters/bodies_parts/half_head.lwo"  //models/weapons/grenadelauncher/w_grenade.lwo
+	"model"						"models/gibs/head_pork.lwo"  // models/weapons/grenadelauncher/w_grenade.lwo
 	"def_damage"				"damage_grenadeDirect"
 	"def_splash_damage"			"damage_grenadeSplash"
 																											
 	"speed"						"700"
-	"angular_velocity"			"-10 5 1"
-	"settle_duration"			"0.08"
+	"angular_velocity"			"-10 5 1" // Orig -10 5 1
+	"settle_duration"			"0.08" // Orig 0.08
 	
 	"linear_friction"			"0"
 	"angular_friction"			"0"
-	"contact_friction"			"10"
+	"contact_friction"			"10" // Orig 10
 	"bounce"					".65"
-	"gravity"					"1"
+	"gravity"					"1"  // Orig 1
 	"fuse"						"2.5"
 								
 	"detonate_on_fuse"			"1"

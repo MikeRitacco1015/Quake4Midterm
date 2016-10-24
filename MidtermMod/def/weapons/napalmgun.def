@@ -73,7 +73,7 @@ entityDef weapon_napalmgun
 	"inv_icon"					"gfx/guis/hud/icons/item_fire.tga"
 	"inv_name"					"Napalm Launcher"	
 
-	"fireRate"					".8"
+	"fireRate"					".3"  // Was .8
 //	"reloadRate"				".1"
 	"spread"					"0"
 	"dirOffset"					"0 0 .1"
@@ -366,7 +366,7 @@ entityDef impact_napalm_projectile
 
 entityDef damage_napalmDirect 
 {
-	"damage"					"70"
+	"damage"					"50" // Was 70
 	"gib"						"1"
 	"knockback"					"60"
 	"deathPush"					"200"
@@ -376,8 +376,8 @@ entityDef damage_napalmDirect
 
 entityDef damage_napalmSplash
 {
-	"damage"					"70"
-	"radius"					"140"
+	"damage"					"50" // Was 70
+	"radius"					"280" // Was 140
 	"attackerDamageScale"		"1.0"
 	"knockback"					"60"
 	"gib"						"0"
@@ -389,7 +389,7 @@ entityDef damage_napalmSplash
 entityDef damage_napalmGlobEmit
 {
 	"damage"					"15"
-	"radius"					"140"
+	"radius"					"280" // Was 140
 	"attackerDamageScale"		"1.0"
 	"knockback"					"0"
 	"gib"						"0"
