@@ -421,11 +421,11 @@ entityDef projectile_nail
 	"health"					"0"
 	"speed"						"1200"
 	"gravity"					"0"
-	"fuse"						"4"
+	"fuse"						"8" // Was 4
 								
 	"detonate_on_fuse"			"1"
 	"detonate_on_death"			"0"
-	"detonate_on_world"			"1"
+	"detonate_on_world"			"0" // was 1
 	"detonate_on_actor"			"1"
 	"detonate_on_bounce"		"1"
 																

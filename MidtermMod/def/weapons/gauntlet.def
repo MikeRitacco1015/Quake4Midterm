@@ -195,7 +195,7 @@ model weapon_gauntlet_world
 
 entityDef damage_gauntlet
 {
-	"damage"					"50"
+	"damage"					"10" // Was 50
 	"gib"						"1"
 
 	"dv_time"					"100"
@@ -204,7 +204,7 @@ entityDef damage_gauntlet
 	"deathPush"					"200"
 	"deathPushMin"				"2000 400"
 	"deathPushMax"				"4000 500"
-	"knockback"					"50"
+	"knockback"					"500" // Was 50
 	
 	"bleed"						"1"
 }

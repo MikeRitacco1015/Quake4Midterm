@@ -322,16 +322,16 @@ entityDef weaponmod_rocketlauncher_homing
 entityDef projectile_rocket
 {
 	"spawnclass"				"idProjectile"
-	"size"						"7 7 7"
+	"size"						"20 20 20" // Was 7 7 7
 	"cone"						"2"
 	"noshadows"					"1"
 	"clipmask_largeshot"		"1"
 								
-	"model"						"models/gibs/skull.lwo"    // "models/weapons/rocketlauncher/rocket.lwo"
+	"model"						"models/gibs/rup2_leg_pork.lwo" //"models/gibs/skull.lwo"     "models/weapons/rocketlauncher/rocket.lwo"
 	"def_damage"				"damage_rocketDirect"
 	"def_splash_damage"			"damage_rocketSplash"
 																											
-	"speed"						"900"
+	"speed"						"600" // Was 900
 	"fuse"						"6"
 	"push"						"48000"
 	
@@ -345,7 +345,7 @@ entityDef projectile_rocket
 	"impact_gib"				"1"								
 	"decal_size"				"75"
 
-	"fx_fly"				"effects/weapons/rocketlauncher/fly.fx"
+	//"fx_fly"				"effects/weapons/rocketlauncher/fly.fx"
 	"fx_fly_mp"				"effects/weapons/rocketlauncher/fly_mp.fx"
 	"fx_fly_mp_low"			"effects/weapons/rocketlauncher/fly_mp_low.fx"
 	"fx_detonate"				"effects/weapons/rocketlauncher/detonate.fx"
@@ -370,8 +370,8 @@ entityDef projectile_rocket_mp
 {
 	"inherit"					"projectile_rocket"
 	"predictTime"				"50"
-	"speed"						"935"
-	"size"						"5 5 5"
+	"speed"						"600"
+	"size"						"20 20 20"
 	"no_impact_prediction"		"1"
 }
 
@@ -392,7 +392,7 @@ entityDef projectile_rocket_homing
 
 entityDef damage_rocketDirect 
 {
-	"damage"					"150"
+	"damage"					"75" // Was 150
 	"push"						"45000"
 	"gib"						"1"
 
@@ -408,15 +408,15 @@ entityDef damage_rocketDirect
 entityDef damage_rocketDirect_mp
 {
 	"inherit"					"damage_rocketDirect"
-	"damage"					"100"
-	"knockback"					"110"
+	"damage"					"50" // Was 100
+	"knockback"					"500" // Was 110
 }
 
 entityDef damage_rocketSplash 
 {
-	"damage"					"150"
+	"damage"					"50" // Was 100
 	"radius"					"180"
-	"knockback"					"100"
+	"knockback"					"500"  // Was 100
 	"push"						"10000"
 	"gib"						"0"
 
@@ -432,7 +432,7 @@ entityDef damage_rocketSplash
 entityDef damage_rocketSplash_mp
 {
 	"inherit"					"damage_rocketSplash"
-	"knockback"					"110"
-	"damage"					"100"
+	"knockback"					"500" // Was 110
+	"damage"					"50" // Was 100
 	"radius"					"120"
 }

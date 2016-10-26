@@ -89,7 +89,7 @@ entityDef weapon_grenadelauncher
 	"weaponname"				"Brain Launcher"
 	"def_projectile"			"projectile_grenade"
 	"ammoType"					"ammo_grenadelauncher"
-	"clipSize"					"8"
+	"clipSize"					"20"
 	"ammoRequired"				"1"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_grenadelauncher"
 
@@ -297,7 +297,7 @@ entityDef projectile_grenade
 
 entityDef damage_grenadeDirect 
 {
-	"damage"					"125"
+	"damage"					"75" // Was 125
 	"gib"						"1"
 
 	"deathPush"					"200"
@@ -312,15 +312,15 @@ entityDef damage_grenadeDirect
 entityDef damage_grenadeDirect_mp
 {
 	"inherit"					"damage_grenadeDirect"
-	"damage"					"100"
+	"damage"					"75" // Was 100
 	"knockback"					"100"
 }
 
 entityDef damage_grenadeSplash 
 {
-	"damage"					"200"
+	"damage"					"100" // Was 200
 	"radius"					"250"
-	"knockback"					"100"
+	"knockback"					"1000" // Was 100
 	"push"						"10000"
 	"gib"						"0"
 
@@ -336,6 +336,6 @@ entityDef damage_grenadeSplash
 entityDef damage_grenadeSplash_mp
 {
 	"inherit"					"damage_grenadeSplash"
-	"damage"					"100"
+	"damage"					"50" // Was 100
 	"radius"					"150"
 }
