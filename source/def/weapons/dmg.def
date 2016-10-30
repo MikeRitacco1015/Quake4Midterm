@@ -4,6 +4,9 @@
 // Copyright 2002-2004 Raven Software
 //----------------------------------------------------------------
 
+// Modification:
+// Reduced Damage
+
 export dmg
 {
 	options -prefix DMG_ -scale .3937 -keep muzzle_flash -sourcedir work/models/weapons/strogg_dark_matter/animations -destdir models/weapons/darkmatter

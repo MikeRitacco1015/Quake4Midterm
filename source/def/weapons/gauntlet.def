@@ -4,6 +4,9 @@
 // Copyright 2002-2004 Raven Software
 //----------------------------------------------------------------
 
+// Modifications:
+// Increased knockback
+
 export gauntlet
 {
 	options -prefix GAUNTLET_ -scale .4 -sourcedir work/models/weapons/strogg_gauntlet/animations -destdir models/weapons/gauntlet
@@ -195,7 +198,7 @@ model weapon_gauntlet_world
 
 entityDef damage_gauntlet
 {
-	"damage"					"10" // Was 50
+	"damage"					"50" // Was 50
 	"gib"						"1"
 
 	"dv_time"					"100"
@@ -204,7 +207,7 @@ entityDef damage_gauntlet
 	"deathPush"					"200"
 	"deathPushMin"				"2000 400"
 	"deathPushMax"				"4000 500"
-	"knockback"					"500" // Was 50
+	"knockback"					"5000" // Was 50
 	
 	"bleed"						"1"
 }

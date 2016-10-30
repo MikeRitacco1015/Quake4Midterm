@@ -4,6 +4,11 @@
 // Copyright 2002-2004 Raven Software
 //----------------------------------------------------------------
 
+// Modifications:
+// Throws heads
+// Damage redux
+// Knockback Increase
+
 export grenadelauncher
 {
 	options -prefix NADE_ -scale .4 -keep barrel -sourcedir work/models/weapons/strogg_grenade_launcher/animations -destdir models/weapons/grenadelauncher

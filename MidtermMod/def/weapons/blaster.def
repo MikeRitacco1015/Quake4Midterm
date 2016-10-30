@@ -4,8 +4,9 @@
 // Copyright 2002-2004 Raven Software
 //----------------------------------------------------------------
 
-// Midterm Mod:
-//
+// Modifications:
+// Single shot damage redux
+// Charge shot damage redux + knockback
 
 export blaster
 {

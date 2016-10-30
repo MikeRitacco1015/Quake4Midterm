@@ -2,6 +2,10 @@
 // napalmgun.def
 //----------------------------------------------------------------
 
+// Modifications:
+// Radius increase
+// Damage redux
+
 export napalmgun
 {
 	options -game /q4xbase -prefix SRL_ -scale .4 -keep offset lighter light_pivot reticle canister muzzle_flash peice1 peice2 peice3 plunger tube tube1 tube2 tube3 -skipmesh rt_strogg_arm_mesh -skipmesh lft_strogg_arm_mesh -sourcedir models/weapons/flame_goop/animations -destdir models/weapons/napalmgun
